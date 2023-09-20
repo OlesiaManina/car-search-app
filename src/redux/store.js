@@ -1,4 +1,4 @@
-import { configureStore, getDefaultMiddleware } from "@reduxjs/toolkit";
+import { configureStore } from "@reduxjs/toolkit";
 import {
     persistStore,
     persistReducer,
@@ -12,19 +12,10 @@ import {
   import storage from 'redux-persist/lib/storage';
   import { advertsReducer } from './adverts/advertsSlice';
 
-const middleware = [
-    ...getDefaultMiddleware({
-      serializableCheck: {
-        ignoredActions: [FLUSH, REHYDRATE, PAUSE, PERSIST, PURGE, REGISTER],
-      },
-    }),
-  ];
-
   const advertsPersistConfig = {
     key: 'adverts',
     storage,
   };
-
 
   export const store = configureStore({
     reducer: {

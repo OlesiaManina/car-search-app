@@ -15,7 +15,7 @@
     outline: none;
     border: none;
     color: #fff;
-    background-color: #3470FF;
+    background-color: var(--blue-color);
   
     &:hover,
     &:focus {

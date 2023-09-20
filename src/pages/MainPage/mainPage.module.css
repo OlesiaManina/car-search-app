@@ -1,0 +1,42 @@
+
+.container {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  padding-top: 0;
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+}
+
+.img {
+  width: 1000px;
+  height: 900px;
+}
+
+.title {
+  background-image: linear-gradient(90deg, blue, yellow);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-align: center;
+}
+
+.text {
+  margin-bottom: 0;
+}
+
+
+
+
+
+
+    
+
+
+  
+
+  
+
+

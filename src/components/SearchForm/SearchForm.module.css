@@ -1,0 +1,152 @@
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 50px;
+    gap: 18px;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.inputContainer {
+    display: flex;
+    position: relative;
+}
+
+.inputLeft {
+    width: 160px;
+    height: 48px;
+    padding-left: 70px;
+    border-bottom-left-radius: 14px;
+    border-top-left-radius: 14px;
+    background: #F7F7FB;
+    border: none;
+    border-right: 1px solid #8A8A89;
+    outline: none;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.inputLeft:focus {
+    border: 1px solid var(--blue-color);
+}
+
+.inputRight {
+    width: 160px;
+    height: 48px;
+    padding-left: 48px;
+    border-bottom-right-radius: 14px;
+    border-top-right-radius: 14px;
+    background: #F7F7FB;
+    border: none;
+    outline: none;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.inputRight:focus {
+    border: 1px solid var(--blue-color);
+}
+
+ .staticPlaceholderLeft {
+    display: block;
+    position: absolute;
+    left: 24px;
+    top: 14px;
+    z-index: 2;
+    color: #121417;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}  
+
+.staticPlaceholderRight {
+    display: block;
+    position: absolute;
+    left: 184px;
+    top: 14px;
+    z-index: 2;
+    color: #121417;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}  
+
+.button {
+    composes: button from '../../global.css';
+    margin: 0;
+    width: 136px;
+    height: 48px;
+    padding: 14px 44px;
+}
+
+.brandSelect {
+    width: 224px;
+    height: 48px;
+    border-radius: 14px;
+    background: #F7F7FB;
+    border: none;
+    outline: none;
+    padding: 10px 18px;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.brandSelect:focus {
+    border: 1px solid var(--blue-color);
+}
+
+.priceSelect {
+    width: 125px;
+    height: 48px;
+    border-radius: 14px;
+    background: #F7F7FB;
+    border: none;
+    outline: none;
+    padding: 10px 18px;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.priceSelect:focus {
+    border: 1px solid var(--blue-color);
+}
+
+.option {
+    background-color: #fff;
+    color: #12141733;    ;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+
+.label {
+    color: #8A8A89;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+}

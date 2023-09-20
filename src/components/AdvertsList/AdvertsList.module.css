@@ -1,0 +1,31 @@
+.list {
+    display: grid;
+    grid-template-columns:none;
+    grid-template-columns:repeat(auto-fill, minmax(274px, 1fr));
+    grid-gap: 29px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+    list-style: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+}
+
+.imgNoAdv{
+    border-radius: 10px;
+    object-fit: cover;
+}
+.noAdvWrapper{
+    width: 1280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 46px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title {
+    font-size: 30px;
+}

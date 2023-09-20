@@ -1,0 +1,152 @@
+.container {
+  width: 541px;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 50px;
+  padding: 40px;
+  max-height: calc(100vh - 140px);
+  overflow-x: hidden;
+  overflow-y: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.container::-webkit-scrollbar {
+  display: none;
+}
+
+.photo {
+  width: 465px;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 14px;
+}
+
+.model_list {
+  max-width: 230px;
+  overflow: hidden;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  gap: 4px;
+}
+
+.model_list_item {
+  color: var(--grey-color);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  margin: 0;
+}
+
+.accent {
+  color: var(--blue-color);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.aditionalInfo_container {
+  max-width: 307px;
+  height: 45px;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 8px;
+  margin-bottom: 14px;
+}
+
+.list_item {
+  display: block;
+  position: relative;
+  white-space: normal;
+  margin-right: 10px;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  color: rgba(18, 20, 23, 0.5);
+}
+
+.list_item:not(:last-child)::after {
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 1px;
+  background-color: rgba(18, 20, 23, 0.10); 
+  right: -5px; 
+  top: 0;
+  bottom: 0;
+}
+
+.description {
+  color: var(--grey-color);
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.title {
+  margin-top: 24px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.accessAndFuncArr_container {
+  max-width: 460px;
+  height: 45px;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 8px;
+  margin-bottom: 14px;
+}
+
+.condition_list {
+  max-width: 420px;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  align-items: center;
+  padding: 0;
+  gap: 8px;
+  margin-bottom: 23px;
+}
+
+.condition_item {
+  margin: 0;
+  padding: 14px 7px;
+  border-radius: 35px;
+  background-color: #F9F9F9;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.value {
+  margin: 0;
+  display: inline-block;
+  color: var(--blue-color);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.call_btn {
+  composes: button from '../../global.css';
+  width: 168px;
+  padding: 12px 48px;
+  margin-left: 0;
+  text-decoration: none;
+}
+

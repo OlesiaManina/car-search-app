@@ -1,0 +1,25 @@
+.container {
+    width: 1210px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    padding-bottom: 0;
+}
+
+.loadMoreButton {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: var(--blue-color);
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; 
+    text-decoration-line: underline;
+    background-color: transparent;
+}
+

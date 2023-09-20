@@ -1,0 +1,26 @@
+.button{
+    display: flex;
+    width: 274px;
+    height: 44px;
+    padding: 12px 99px;
+    align-items: center;
+    border-radius: 12px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    font-family: Manrope;
+    margin-left: auto;
+    margin-right: auto;
+    outline: none;
+    border: none;
+    color: #fff;
+    background-color: #3470FF;
+  
+    &:hover,
+    &:focus {
+      cursor: pointer;
+      background-color: #0B44CD;
+      color: #fff;
+    }
+  }

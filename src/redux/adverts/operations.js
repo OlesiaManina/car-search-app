@@ -12,6 +12,7 @@ export const getAdverts = createAsyncThunk(
       return res.data;
     } catch (error) {
       toast(error.response.data.message);
+      console.log(error.message)
       return thunkAPI.rejectWithValue(error.message);
     }
   }
